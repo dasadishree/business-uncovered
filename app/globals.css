@@ -1,26 +1,90 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&display=swap');
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --lavender: #d4c8e8;
+  --lavender-mid: #b8a8d8;
+  --purple-dark: #6b4fa0;
+  --purple-deep: #4a3270;
+  --purple-accent: #7c5cbf;
+  --cream: #f5f0e6;
+  --off-white: #faf8f5;
+  --text-darkk: #2a1f3d;
+  --halftone-purple: #8b6bb5;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html{
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Space Mono", monospace;
+  background-color: var(--off-white);
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+/* navbar */
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2.5rem;
+  background: var(--lavender);
+  border-bottom: 2px dashed var(--purple-dark);
+  position: sticky;
+  top:0;
+  z-index:100;
+}
+.navbar-logo{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing:0.08em;
+  color: var(--purple-deep);
+  line-height: 1.1;
+}
+.navbar-logo span{
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+}
+.navbar-links{
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+.navbar-links a{
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--purple-deep);
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s;
+}
+.navbar-links a::after{
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: var(--purple-dark);
+  transition: width 0.25s ease;
+}
+.navbar-links a:hover::after{
+  width: 100%;
+}
+
+/* hero */
+.hero {
+  position: relative;
+  min-height: 60vh;
+
 }
