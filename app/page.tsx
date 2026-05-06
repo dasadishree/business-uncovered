@@ -1,9 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-// import Blog from './components/Blog';
-// import Chronicles from './components/Chronicles';
-// import {Future, Footer} from './components/FutureAndFooter';
+import Blog from './components/Blog';
 
 export default function Home() {
   return (
@@ -11,10 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      {/*<Blog />
-      <Chronicles />
-      <Future />
-  <Footer /> */}
+      <Blog/>
     </main>
   );
 }

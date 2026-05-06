@@ -186,10 +186,11 @@ body {
   object-fit: contain;
 }
 .about-right{
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem 3rem 3rem 2rem;
+  padding: 3rem 10rem 3rem 10rem;
   gap: 1.5rem;
 }
 .about-heading{
@@ -198,6 +199,7 @@ body {
   color: var(--purple-deep);
   line-height: 1.15;
   letter-spacing: 0.02em;
+  text-align: right;
 }
 .about-paragraph{
   font-family: "Basic", sans-serif;
@@ -208,3 +210,13 @@ body {
   text-transform: uppercase;
   color: var(--purple-deep);
 }
+.text-deco{
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  width: 120px;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
+/* blog page */

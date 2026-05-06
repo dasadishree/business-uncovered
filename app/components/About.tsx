@@ -7,7 +7,7 @@ export default function About() {
                 <span className="about-label">about</span>
                 <Image
                     src="/heart.png"
-                    alt="Heart illustration with mic and audience callout"
+                    alt="heart image with text box"
                     width={480}
                     height={480}
                     className="about-illustration-img"
@@ -31,6 +31,14 @@ export default function About() {
                 <p className="about-paragraph">
                     OUR MISSION IS TO GIVE INSIGHT TO SCHOLARS ON BUSINESS, MARKETING TRENDS, CAREER GOALS, GROWTH, AND TIPS.
                 </p>
+
+                <Image
+                    src="/textdecor.png"
+                    alt="text decor arrows"
+                    width={120}
+                    height={100}
+                    className="text-deco"
+                />
             </div>
         </section>
     )
