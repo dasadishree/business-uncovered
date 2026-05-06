@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Dancing+Script:wght@400..700&family=Shrikhand&display=swap');
 
 :root {
   --lavender: #d4c8e8;
@@ -22,7 +22,7 @@ html{
 }
 
 body {
-  font-family: "Space Mono", monospace;
+  font-family: "Basic", monospace;
   background-color: var(--off-white);
   color: var(--text-dark);
   overflow-x: hidden;
@@ -41,8 +41,8 @@ body {
   z-index:100;
 }
 .navbar-logo{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 1.4rem;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 2rem;
   letter-spacing:0.08em;
   color: var(--purple-deep);
   line-height: 1.1;
@@ -58,8 +58,9 @@ body {
   list-style: none;
 }
 .navbar-links a{
-  font-family: 'Space Mono', monospace;
-  font-size: 0.7rem;
+  font-family: 'Basic', monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--purple-deep);
@@ -88,7 +89,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3rem 2rem 2rem;
+  padding: 3rem 4rem 2rem;
   aspect-ratio: 1456/616;
 }
 .hero-bg{
@@ -112,28 +113,28 @@ body {
 .hero-content{
   position: relative;
   z-index: 2;
-  max-width: 700px;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   filter: drop-shadow(0 2px 12px rgba(74, 50, 112, 0.25));
 }
 .hero-title{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Dancing Script', cursive;
   font-style: italic;
-  font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 400;
+  font-size: clamp(7rem, 12vw, 12rem);
+  font-weight: 800;
   line-height: 0.95;
   letter-spacing: -0.01em;
   margin-bottom: -0.1em;
   color: transparent;
-  -webkit-text-stroke: 2px white;
+  -webkit-text-stroke: 1.5px white;
   -webkit-text-fill-color: var(--purple-dark);
 
 }
 .hero-title-block{
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(3.5rem, 10vw, 7rem);
+  font-family: 'Shrikhand', serif;
+  font-size: clamp(6rem, 15vw, 12rem);
   letter-spacing: 0.05em;
   line-height: 1;
   position: relative;
@@ -148,9 +149,10 @@ body {
   display: none;
 }
 .hero-subtitle{
-  font-family: 'Space Mono', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.3em;
+  font-family: 'Basic', monospace;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--purple-deep);
   margin-top: 0.6rem;
