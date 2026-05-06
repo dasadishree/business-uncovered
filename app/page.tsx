@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-// import About from './components/About';
+import About from './components/About';
 // import Blog from './components/Blog';
 // import Chronicles from './components/Chronicles';
 // import {Future, Footer} from './components/FutureAndFooter';
@@ -10,11 +10,11 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      {/* <About />
-      <Blog />
+      <About />
+      {/*<Blog />
       <Chronicles />
       <Future />
-      <Footer /> */}
+  <Footer /> */}
     </main>
   );
 }

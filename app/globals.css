@@ -159,3 +159,52 @@ body {
   opacity: 0.85;
   align-self: flex-end;
 }
+
+/* about */
+.about{
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  background: #f0ebf8;
+  border-top: 2px dashed var(--purple-dark);
+  min-height: 500px;
+}
+.about-left{
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1rem 2rem 2.5rem;
+  gap: 1rem;
+}
+.about-label{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  color: var(--purple-deep);
+  font-weight: 800;
+}
+.about-illustration-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.about-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 3rem 3rem 2rem;
+  gap: 1.5rem;
+}
+.about-heading{
+  font-family: "Shrikhand", serif;
+  font-size: clamp(1.8rem, 3.5vw, 3rem);
+  color: var(--purple-deep);
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+.about-paragraph{
+  font-family: "Basic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--purple-deep);
+}
