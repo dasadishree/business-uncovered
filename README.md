@@ -1,7 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+WEBSITWE FOPR A YOUTH NONPROFIT:
 INSPO: https://www.instagram.com/business_uuncovered/
+Their request: purple and themed like their instagram, have an about, blog, chronicles, and future section
 
+
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
