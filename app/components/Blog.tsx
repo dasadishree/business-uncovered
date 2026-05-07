@@ -19,7 +19,6 @@ export default function Blog() {
             <div className="blog-bg"/>
             <div className="blog-header">
                 <span className="blog-label">blog</span>
-                <button className="blog-admin-btn">+ ADD BLOG</button>
             </div>
 
             <div className="blog-carousel-row">
