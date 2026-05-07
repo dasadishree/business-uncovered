@@ -1,3 +1,9 @@
+IMAGE:
+<img width="1470" height="956" alt="Screenshot 2026-05-06 at 11 04 23 PM" src="https://github.com/user-attachments/assets/ae956cab-74a2-4e13-9010-6d8ba3726f6f" />
+
+LINK: https://businessuuncovered.netlify.app/
+
+
 WEBSITWE FOPR A YOUTH NONPROFIT:
 INSPO: https://www.instagram.com/business_uuncovered/
 Their request: purple and themed like their instagram, have an about, blog, chronicles, and future section
